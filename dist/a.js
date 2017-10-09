@@ -1,0 +1,1 @@
+function indexofArr(r){for(var n=[],o=0;o<r.length;o++)r[o]!==r[o+1]&&n.push(r[o]);return n}var arr=[1,2,3,4,5,5,5,6,7,8];console.log(indexofArr(arr));
